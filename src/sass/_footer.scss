@@ -1,0 +1,28 @@
+.footer-contain {
+  padding: 2em 0 1em;
+  .ul-list {
+    list-style: none;
+    padding-inline-start: 0.5em;
+    .li-list {
+      padding: 0.3em 0;
+    }
+  }
+  .custom-text {
+    padding: 0 0 0 0.3em;
+  }
+  .custom-form {
+    display: flex;
+    padding: 0 0 0.5em 0.3em;
+    .custom-control {
+      padding: 0.3em;
+      border-top-right-radius: calc(0rem - 0px);
+      border-bottom-right-radius: calc(0rem - 0px);
+    }
+
+    .custom-searech {
+      font-size: 0.7rem;
+      border-top-left-radius: calc(0rem - 0px);
+      border-bottom-left-radius: calc(0rem - 0px);
+    }
+  }
+}
